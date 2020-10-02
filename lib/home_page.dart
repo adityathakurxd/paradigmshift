@@ -41,7 +41,7 @@ class _HomePage extends State<HomePage> {
       body: _pages[_selectedPageIndex]['page'],
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectedPage,
-        unselectedItemColor: Colors.grey,
+        unselectedItemColor: Colors.black,
         selectedItemColor: blueMain,
         currentIndex: _selectedPageIndex,
         items: [
