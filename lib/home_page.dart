@@ -42,7 +42,7 @@ class _HomePage extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectedPage,
         unselectedItemColor: Colors.black,
-        selectedItemColor: blueMain,
+        selectedItemColor: kblueMain,
         currentIndex: _selectedPageIndex,
         items: [
           BottomNavigationBarItem(
