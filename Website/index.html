@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Nasa space app</title>
+    <script src="https://kit.fontawesome.com/5bad5b471f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="navbar">
+
+        <div class="logo">
+
+            <span>Paradigm shift</span>
+
+        </div>
+
+        <div class="menu">
+
+            <ul>
+                <!-- <li>NASA</li> -->
+                <li id = "l1">about</li>
+                <input type = "button" value = "download">
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div id="s_animation">
+
+        <span>Nasa space app</span>
+
+    </div>
+
+    <div class="arrow">
+
+        <i id = "right" class="fas fa-arrow-right"></i>
+
+    </div>
+
+    <div id="story">
+
+        <div class="text">
+        
+            <img src="lib/cWogur9gYQBpna5HJfXMrV.jpg" alt="kalpana chawala">
+
+            <p>Kalpana Chawla was an Indian-American astronaut, engineer, and the first woman of Indian origin to go to space. She first flew on Space Shuttle Columbia in 1997 as a mission specialist and primary robotic arm operator. In 2003, Chawla was one of the seven crew members who died in the Space Shuttle Columbia Disaster when the spacecraft disintegrated during its re-entry into the Earth's atmosphere. Chawla was posthumously awarded the Congressional Space Medal of Honor , and several streets, universities, and institutions have been named in her honor. She is regarded as a national hero in India.</p>
+        
+        </div>
+
+        <span id = "t1">GitHub link for android Application <i class="fas fa-arrow-circle-right"></i></span>
+
+        <button id = "b1">Download</button>
+
+    </div>
+
+    <script>
+
+        document.getElementById("l1").onclick = function(){
+
+            window.location.href = "about.html";
+
+        };
+
+        document.getElementById("right").onclick = function(){
+
+            document.getElementById("s_animation").style.display = "none";
+            document.getElementById("right").style.display = "none";
+            document.getElementById("navbar").style.display = "block";
+            document.getElementById("navbar").style.animation = "slide 2s 1"
+            document.getElementById("story").style.display = "block";
+            document.getElementById("story").style.animation = "slide 2s 1"
+            
+        };
+
+    </script>
+
+</body>
+</html>
