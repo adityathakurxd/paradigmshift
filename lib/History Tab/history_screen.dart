@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:paradigmshift/History Tab/timeline_screen.dart';
+import 'timeline_screen.dart';
 import 'package:paradigmshift/Constants/constants.dart';
+
 class HistoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -13,7 +13,7 @@ const TextStyle kOnBoardText = TextStyle(
 
 const TextStyle kKalpanaText = TextStyle(
   fontSize: 40.0,
-  color: Colors.grey,
+  color: Colors.black54,
   fontFamily: 'SAMAN',
 );
 
@@ -49,4 +49,19 @@ const TextStyle kwhiteChawlaText = TextStyle(
   color: Colors.white,
   fontFamily: 'SAMAN',
   fontWeight: FontWeight.bold,
+);
+
+
+const TextStyle kDescriptionStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 16.0,
+
+  fontFamily: 'Gilroy',
+);
+
+const TextStyle kTitleStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 20.0,
+  fontWeight: FontWeight.bold,
+  fontFamily: 'SAMAN',
 );

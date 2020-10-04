@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:paradigmshift/Constants/constants.dart';
 import 'package:paradigmshift/AR Tab/ar_screen.dart';
 import 'package:paradigmshift/History Tab/history_screen.dart';
-import 'package:paradigmshift/splash_screen.dart';
+
 
 class HomePage extends StatefulWidget {
   static const routeName = "/bottom-navigation";
@@ -51,7 +51,7 @@ class _HomePage extends State<HomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.camera),
-            title: Text("AR Cam"),
+            title: Text("AR Camera"),
           ),
         ],
       ),

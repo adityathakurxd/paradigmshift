@@ -3,7 +3,6 @@ import 'package:paradigmshift/Constants/constants.dart';
 import 'package:paradigmshift/AR Tab/ar_screen.dart';
 import 'home_page.dart';
 import 'package:paradigmshift/History Tab/history_screen.dart';
-import 'package:paradigmshift/splash_screen.dart';
 import 'package:paradigmshift/On Board/onboard_screen.dart';
 void main() {
   runApp(MyApp());
